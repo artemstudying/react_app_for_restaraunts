@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic');
+.container-Bill{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  font-size: 24pt;
+}
+
+.bill_create-Bill{
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Bill{
+  font-size: 36pt;
+}
+.native_lable-Bill{
+  position: static;
+  color: rgb(0, 0, 0) !important;
+}
+.sale_type-Bill{
+  margin: 0 auto;
+  margin-top: 30px; 
+  display: flex !important;
+  width:85%;
+  font-size: 12pt;
+  justify-content: space-around;
+  align-items: center;
+}
+.sale_type-Bill>p {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  justify-content: space-around;
+}
+.order_info-Bill{
+  margin-top:40px; 
+}
+
+.order_info-Bill > .group > .bar { 
+  display: none;
+}
+.order_info-Bill > .group{
+  width: 70% !important;
+}
+
+.order_info_label-Bill {
+  color: black !important;  
+}
+
+.order_info-Bill >.group > input{
+  width: 150px !important;
+}
+.category_container-Bill{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.col-Bill {
+  width: 28%;
+  padding: 0 2.5%;
+}
+.stock_to_cat-Bill{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 140px;
+  padding: 20px;
+  background-color:#ffffff;
+  box-shadow: 0 4px 7px rgba(0,0,0,.24), 0 0 7px rgba(0,0,0,.12);
+  border-radius:3px;
+  text-align: center;
+  color: #9c9c9c;
+}
+.stock_to_cat-Bill:hover{
+   cursor: pointer;
+}
+.stock_to_cat-Bill img {
+  display: block;
+  margin: 0 auto;
+  height: 90px;
+}
+.stock_to_cat-Bill > div {
+  width: 100%;
+}
+.bill_table-Bill{
+  margin-top:40px; 
+}
+.bill_table-Bill > table{
+  width:100%;
+  font-size: 16pt;
+} 
+.bill_table-Bill td {
+  padding: 15px;
+}
+.sendBT-Bill{
+  padding: 10px 15px;
+  margin:10px 0; 
+  background-color: #58639c;
+  display: inline-block;
+  color: #ffffff;
+}
+.sendBT-Bill:hover{
+  cursor: pointer;
+}
+.navigation_bar-Bill{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 55%;
+}
+.bt_back-Bill{
+  padding: 15px;
+  background-color: #58639c;
+  color: #ffffff;
+}
+.bt_back-Bill:hover{
+  cursor: pointer;
+}
+.pay_type-Bill{
+  border: 0;
+  border-color: #607D8B;
+  border-style:solid;
+  border-width: 1px;
+  border-radius:0;  
+  font-size: 12pt;
+  background-color: #ffffff;
+}
+
+.sale_type-Bill .input-Bill {
+  position: absolute;
+  left: -9999px;
+}
+.label-Bill{
+  position: static !important;
+  pointer-events: inherit;
+}
+.label-Bill:hover{
+  cursor: pointer;
+}
+.sale_type-Bill .label-Bill {
+  display:inline-block !important;
+  background-color:rgb(255, 255, 255);
+  font-family:"Roboto";
+  font-size:16px;
+  border: 1px solid #b1b1b1;
+  padding: 10px;
+  font-size: 25px;
+  margin-top: 15px;
+  color: #b1b1b1;
+}
+
+.sale_type-Bill .input-Bill:checked + .label-Bill { 
+  background-color:#58639c;
+  color: #ffffff;
+  border: 1px solid #60adf0;
+}
+.delete-Bill:hover{
+  cursor: pointer;
+}
+.tr_m-DishList > td:hover {
+  cursor: pointer;
+}
+.modal__bt {
+  margin: 0 auto;
+}

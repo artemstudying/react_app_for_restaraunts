@@ -1,0 +1,14 @@
+.infoField{
+	padding:5px 10px 5px 10px;
+	margin-top:5px;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 18pt;
+	border-radius: 3px;
+	text-align: center;
+	background-color:#009688;
+	box-shadow: 0px 2px 3px 0;
+
+}

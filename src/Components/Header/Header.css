@@ -1,0 +1,80 @@
+.header {
+	width: 100%;
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+	background-color: #fff;
+    box-shadow: 0 10px 10px rgba(0,0,0,.24), 0 0 10px rgba(0,0,0,.12);
+}
+
+.header__wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	margin: auto;
+	padding: 1% 0;
+}
+
+
+.header__waiter {
+	display: flex;
+	align-items: center;
+	width: 30%;
+}
+
+.header__waiter-avatar {
+	width: 32px;
+	height: 32px;
+	background-color: #f95555;
+	border-radius: 50%;
+}
+
+.header__waiter-name {
+	margin-left: 5%; 
+}
+
+
+.header__date {
+	display: flex;
+	justify-content: space-between;
+	width: 20%;
+}
+
+.header__date > div {
+	text-transform: capitalize;
+}
+
+
+.header__controls {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 25%;
+}
+
+.header__controls-icon {
+	height: 20px;
+}
+
+.header__controls-bt {
+	border: none;
+    background: none;
+	outline: none;
+	
+	display: flex;
+	justify-content: center;
+	height: 30px;
+	padding: 0 10px;
+
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+	text-transform: uppercase;
+	white-space: nowrap;
+	color: #fff;
+
+	background-color: #59649c;
+    cursor: pointer;
+}

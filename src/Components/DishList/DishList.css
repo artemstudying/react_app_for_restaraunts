@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900i&subset=cyrillic,cyrillic-ext,latin-ext');
+
+.container-bar_menu{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: 'Roboto';
+	/*background: #0288D1;*/
+}
+.nav-bar_menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-top: 20px;
+}
+.container-bar_menu>table{
+	width: 100%;
+	margin: 0 auto;
+	margin-top:100px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #78909c30;
+}
+.container-bar_menu>table td{
+	padding: 15px 25px;	
+}
+
+.bt_back-nav-bar_menu{
+	padding: 5px 25px;
+	background-color: #57639A; 
+	font-size: 24pt;
+	color:#fff;
+}
+.bt_back-nav-bar_menu:hover{cursor: pointer}
+
+.bt_bill-nav-bar_menu {
+	padding: 5px 25px;
+	background-color: #57639A; 
+	font-size: 24pt;
+	color:#fff;
+}
+.bt_bill-nav-bar_menu:hover{cursor: pointer}
+
+.inner_label-DishList{
+	width: 100px ;
+	margin: 0;
+}
+.tr_m-DishList{
+	background-color: white;
+}
+.tr_c-DishList{
+	background-color: #78909c30;
+}
+.dishlist__title {
+	font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    color: #2a3a6d;
+}

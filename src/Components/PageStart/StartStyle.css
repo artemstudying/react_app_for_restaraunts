@@ -1,0 +1,87 @@
+.container-StartPage{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Roboto';
+
+}
+
+.navigator_bt-StartPage {
+	display: flex;
+	height: 65vh;
+	width: 80%;
+	margin: auto;
+	margin-top: 60px;
+}
+
+.navigator_bt-row {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.navigator_bt-row:first-child {
+	margin-right: 30px;
+}
+
+.bt-StartPage {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	font-family: 'Roboto';
+	font-size: 3vw;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 3px;
+	color: #fff;
+	box-shadow: 0 7px 10px rgba(0,0,0,.24), 0 0 10px rgba(0,0,0,.12);
+}
+
+.bt-StartPage:hover {
+	cursor: pointer;
+}
+
+.bt-sp-exit {
+	border: none;
+    background: none;
+	outline: none;
+
+	display: flex;
+	padding: 10px 30px;
+	margin-top: 20px;
+	align-self: flex-end;
+	justify-content: center;
+
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+	text-transform: uppercase;
+	white-space: nowrap;
+	color: #fff;
+
+	background-color: #59649c;
+	cursor: pointer;
+}
+
+.bt-sp-new-bill {
+	height: 60%;
+	margin-bottom: 30px;
+	background-color: #87b2ff;
+}
+.bt-sp-cashbox {
+	height: 40%;
+	background-color: #758098;
+}
+.bt-sp-opened-bills {
+	height: 80%;
+	margin-bottom: 30px;
+	background-color: #59649c;
+}
+.bt-sp-shift {
+	height: 20%;
+	background-color: #759fe3;
+}

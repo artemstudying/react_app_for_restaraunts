@@ -1,0 +1,12 @@
+.numpad-line {
+    display: flex;
+    justify-content: center;
+}
+
+.numpad-number {
+    padding: 15px 20px;
+}
+
+.numpad-number:hover {
+    background-color: #ccc;
+}
